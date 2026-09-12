@@ -1,14 +1,17 @@
 <!DOCTYPE HTML>
-<html xmlns : th = "tttp://www.thymeleaf.org">
+<html xmlns:th = "http://www.thymeleaf.org">
 
 <head>
     <title> Pixel Thymeleaf Demo</title>
-  <head>
+    <link rel="stylesheet" th:href="@{/css/demo.css}" />
+  </head>
 
   <body>
 
-        <p th:text="'Time on the server is' + ${theDate}" />
+
+        <p th:text="'Time on the server is ' + ${theDate}" class="schimba-culoarea" />
 
      </body>
+
 
      </html>
